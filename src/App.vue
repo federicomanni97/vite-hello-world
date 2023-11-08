@@ -1,21 +1,20 @@
 <template>
 <header>
   <h1><AppTitleComponent/></h1>
-  <appHero/>
+  <AppHero/>
 </header>
 </template>
 
 <script>
-import AppHero from './components/appHero.vue'
+import AppHero from './components/AppHero.vue'
 import AppTitleComponent from './components/AppTitleComponent.vue'
 export default {
     name: 'App',
     components: {
         AppTitleComponent,
-        appHero
+        AppHero,
     },
   data() {
-    
     return {
       
     }
