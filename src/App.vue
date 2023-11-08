@@ -1,16 +1,18 @@
 <template>
 <header>
-  <h1>{{appTitle}}</h1>
+  <h1><AppTitleComponent/></h1>
 </header>
 </template>
 
 <script>
 export default {
+    components: {
+        AppTitleComponent,
+    },
   data() {
     
-
     return {
-      appTitle: 'La mia prima app con Vite!'
+      
     }
   }
 }
